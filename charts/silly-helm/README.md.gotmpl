@@ -10,17 +10,24 @@ This is a very silly Helm chart, which is applying some Kubernetes resources wit
 
 ## Usage
 
-Please add the minecraft-exporter repository before installing any chart provided by this repository:
+Please add the silly-helm repository before installing any chart provided by this repository:
 
 ```bash
 helm repo add silly-helm https://dirien.github.io/silly-helm-chart
 helm repo update
 ```
 
-### Installing the Chart
+If you use the OCI capability of Helm 3, you don't need to add the repository, but you can directly install the chart:
 
-To install the chart with the release name minecraft-exporter run:
+```bash
+helm install silly-helm oci://ghcr.io/dirien/charts/silly-helm --version {{ .Version }}
+```
+
+### Installing the Chart (non-OCI)
+
+To install the chart with the release name silly-helm run:
 
 ```bash
 helm install silly-helm silly-helm/silly-helm --version {{ .Version }}
 ```
+
