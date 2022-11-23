@@ -11,6 +11,30 @@ entries:
           email: engin.diri@ediri.de
     apiVersion: v2
     appVersion: 0.1.0
+    created: "2022-11-23T09:37:13.477070825Z"
+    description: A Helm chart for Kubernetes
+    digest: 88bfbe44004093afd8f0be58c2e9ed4c9424b568947d738c825652d2b68eba85
+    home: https://github.com/dirien/silly-helm-chart
+    maintainers:
+    - email: engin.diri@ediri.de
+      name: dirien
+    name: silly-helm
+    sources:
+    - https://github.com/dirien/silly-helm-chart
+    type: application
+    urls:
+    - https://github.com/dirien/silly-helm-chart/releases/download/0.1.3-helm/silly-helm-0.1.3.tgz
+    version: 0.1.3
+  - annotations:
+      artifacthub.io/changes: |
+        - initial version
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: dirien
+          email: engin.diri@ediri.de
+    apiVersion: v2
+    appVersion: 0.1.0
     created: "2022-11-23T09:12:46.098264784Z"
     description: A Helm chart for Kubernetes
     digest: d05de20a617e3972f4b8c1dd48b74785ffc929ca8cec7dc0495810be1bcd0ef4
@@ -73,4 +97,4 @@ entries:
     urls:
     - https://github.com/dirien/silly-helm-chart/releases/download/0.1.0-helm/silly-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-23T09:12:46.098278984Z"
+generated: "2022-11-23T09:37:13.477088025Z"
