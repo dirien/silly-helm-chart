@@ -1,0 +1,10 @@
+{{- if .Values.rbac.create }}
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: {{ template "silly-helm.fullname" . }}-reader
+rules:
+  - apiGroups: [""]
+    resources: ["silly"]
+    verbs: ["get", "watch", "list"]
+{{- end }}
