@@ -31,7 +31,7 @@ jobs:
           scan-type: 'config'
           hide-progress: false
           format: 'sarif'
-          scan-ref: 'silly-helm'
+          scan-ref: 'charts/silly-helm'
           output: 'trivy-results.sarif'
           exit-code: '1'
           ignore-unfixed: true
