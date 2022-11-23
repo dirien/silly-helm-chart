@@ -1,0 +1,9 @@
+rbac:
+  create: true
+
+serviceAccount:
+  create: true
+  name: silly-helm
+  automountServiceAccountToken: true
+  annotations: {}
+  labels: {}

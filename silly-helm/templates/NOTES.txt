@@ -1,0 +1,12 @@
+Silly Helm Chart
+
+Deploying Kubernetes resources just for testing.
+
+Currently, this chart deploys:
+
+{{- if .Values.rbac.create }}
+- ClusterRole
+- ClusterRoleBinding
+{{- end }}
+
+- Silly CRD

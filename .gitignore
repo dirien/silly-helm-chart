@@ -1,0 +1,7 @@
+.idea
+.cr-release-packages
+**/dist
+**/password
+**/cosign-*
+**/cosign-*.sig
+**/*-cosign.pub
